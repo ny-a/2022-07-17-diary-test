@@ -1,0 +1,14 @@
+name: gh-issue-diary
+on:
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  gh-issue-diary:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ny-a/gh-issue-diary@main
+        with:
+          assign_user: ny-a
