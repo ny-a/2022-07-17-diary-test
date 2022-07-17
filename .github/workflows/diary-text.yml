@@ -10,5 +10,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ny-a/gh-issue-diary@main
-        with:
-          assign_user: ny-a
