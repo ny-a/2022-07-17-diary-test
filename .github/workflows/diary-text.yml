@@ -12,3 +12,4 @@ jobs:
       - uses: ny-a/gh-issue-diary@main
         with:
           assign_user: ny-a
+          target_day_offset: 0
