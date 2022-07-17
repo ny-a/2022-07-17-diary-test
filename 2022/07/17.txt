@@ -1,0 +1,8 @@
+day of year: 198 / 365
+
+というか翌日分のissueが生成されることを忘れてた
+
+17:30:13 てすと
+17:36:06 splitしてsliceしてjoinするべきか〜
+17:38:30 (@TakedaHiromasa) Hello.
+17:49:29 よし
